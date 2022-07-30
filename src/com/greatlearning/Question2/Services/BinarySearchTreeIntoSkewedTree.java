@@ -32,6 +32,7 @@ public class BinarySearchTreeIntoSkewedTree {
         }
     }
     public static void traverseRightSkewed(Node root) {
+
         if (root == null) {
             return;
         }
