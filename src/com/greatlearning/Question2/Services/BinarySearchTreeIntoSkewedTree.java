@@ -2,8 +2,8 @@ package com.greatlearning.Question2.Services;
 
 public class BinarySearchTreeIntoSkewedTree {
     public static Node node;
-    static Node prevNode = null;
-    public static Node headNode = null;
+    static Node prevNode ;
+    public static Node headNode;
     public static void ConvertBTToSkewed(Node root, int order) {
 
         if (root == null) {
